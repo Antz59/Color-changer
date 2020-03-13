@@ -1,0 +1,36 @@
+.color-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 150px;
+  padding: 50px;
+}
+#color-green{
+  background-color: green;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: larger;
+}
+#color-Red{
+  background-color: red;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: larger;
+}
+#color-Yellow{
+  background-color: yellow;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: larger;
+}
+
+select#dropdown{
+  padding-right: 40px;
+}
+button.removeCurrent{
+  display:flex;
+  align-items: baseline;
+}
